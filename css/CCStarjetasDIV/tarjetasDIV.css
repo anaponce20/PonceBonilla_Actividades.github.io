@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+		margin:0;
+		padding:0;
+}
+header,nav,main,footer{
+	width:960px;
+	/*height:100px;*/ 
+	background-color:#D9765F ;
+	padding:40px;
+	margin:0 auto;
+}
+header{
+	text-align: center;
+	font-size: 35px;
+	color:#273859 ;
+}
+nav{
+	background-color: #1F818C ;
+	heigth:20px;
+	padding:10px 40px;
+}
+section{
+	width:760px;
+	heigth:auto;
+	background-color: #D9A78B ;
+	margin:20px auto;
+	padding:20px 20px;
+}
+footer{
+	background-color:#1F818C ;
+	heigth:60px;
+}
+h2{
+	color:#273859 ;
+	font-size: 28px;
+	text-align:center;
+	font-family:Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
+}
+h3{
+	color:#1F818C ;
+	font-family: 'Besley', serif;
+}
+h5{
+	color:#D9A78B ;
+	text-align:center;
+}
+p{
+	margin:10px;
+	font-family: 'Balsamiq Sans', cursive;
+		}

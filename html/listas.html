@@ -1,0 +1,205 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Listas en html</title>
+	<style type="text/css">
+		*{
+			margin:0;
+			padding:0;
+		}
+		dt{
+			font-weight:bold;
+			font-size:24px;
+			color:darkblue;
+		}
+		h1{
+			font-size: 48px;
+			color:#76003E ;
+		}
+		h2{
+			font-size: 36px;
+			color:#A90065
+		}
+		header,nav,main,footer{
+			width:960px;
+			/*height:100px;*/ 
+			background-color:lightpink ;
+			padding:50px;
+			margin:0 auto;
+		}
+		header{
+			text-align: center;
+		}
+		nav{
+			background-color: #FFE088 ;
+			heigth:20px;
+			padding:10px 50px;
+		}
+		main{
+			background-color: lightpink;
+			heigth:auto;
+		}
+		footer{
+			background-color:#FFE088 ;
+			heigth:60px;
+		}
+		section{
+			width:760px;
+			heigth:auto;
+			background-color: #FFF0C8 ;
+			margin:20px auto;
+			padding:20px 20px;
+		}
+		ul,ol{
+			margin:20px;
+		}
+		dl{
+			margin:20px;
+		}
+		dt{
+			margin:10px;
+		}
+		dd{
+			margin:20px;
+		}
+		footer{
+			text-align: center;
+		}
+		h4{
+			color:#A90051
+		}
+		.contenedor-flexible-nav{
+	color:#203E1F;
+	background-color: #343434;
+	display: flex;
+	height: auto;
+	padding:4px;
+	align-items:stretch;
+	flex-wrap:wrap;
+}
+.contenedor-flexible-nav>div{
+	background-color:#626262;
+	padding:8px;
+	margin: auto;
+	display: inline;
+	height: auto;
+}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>LISTAS EN HTML</h1>
+	</header>
+	<nav>
+		<div class="contenedor-flexible-nav">
+			<div><a href="Mi primera pagina.html">Mi primera pagina</a></div>
+			<div><a href="tablas.html">Tablas</a></div>
+			<div><a href="listas.html">Listas</a></div>
+			<div><a href="Enlaces.html">Enlaces</a></div>
+			<div><a href="imagenes.html">Imagenes</a></div>
+			<div><a href="audio.html">Audio</a></div>
+			<div><a href="video.html">Video</a></div>
+			<div><a href="formularios.html">Formularios</a></div>
+			<div><a href="animate.html">Animacion</a></div>
+			<div><a href="animate.html">Medias queary</a></div>
+		</div>
+	
+	</nav>
+<main>
+		<section>
+		<h2>Lista desordenada o de viñetas</h2>
+			<ul>
+				<li>México</li>
+				<li>España</li>
+				<li>Argentina</li>
+				<li>Guatemala</li>
+				<li>Italia</li>
+			</ul>
+		</section>
+		<section>
+			<h2>Listas ordenadas o con viñeta numerada</h2>
+			<ol>
+				<li>Grecia</li>
+				<li>Bolivia</li>
+				<li>Canada</li>
+				<li>Australia</li>
+				<li>México</li>
+			</ol>
+		</section>
+ 		 <section>
+			<h2>Lista mixta</h2>
+			<ul>
+				<li>México</li>
+			  <ol>
+					<li>Puebla</li>
+					<li>Veracruz</li>
+					<li>Bja Califirnia</li>
+					<li>Oaxaca</li>
+				</ol>
+			  <li>España</li>
+				<ol>
+					<li>Madrid</li>
+					<li>Sevilla</li>
+					<li>Barcelona</li>
+				</ol>
+				<li>Argentina</li>
+				<ol>
+					<li>Puebla</li>
+					<li>Veracruz</li>
+					<li>Bja Califirnia</li>
+					<li>Oaxaca</li>
+				</ol>
+				<li>Guatemala</li>
+				<ol>
+					<li>Puebla</li>
+					<li>Veracruz</li>
+					<li>Bja Califirnia</li>
+					<li>Oaxaca</li>
+				</ol>
+				<li>Italia</li>
+				<ol>
+					<li>Florencia</li>
+					<li>Venecia</li>
+					<li>Roma</li>
+					<li>Piza</li>
+					
+				</ol>
+			</ul>
+		</section>
+		<section>
+			<h2>Lista de descripción</h2>
+			<dl>
+				<dt><b>Hosting</b></dt>
+				<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo in nihil aut eius quod fugit Lorem ipsum dolor sit amet.
+				</dd>
+				<dt style="font-style:italic">Dominio</dt>
+				<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta possimus enim, maiores facilis earum similique alias, officiis suscipit esse! Earum ducimus, blanditiis eius cumque assumenda.
+				</dd>
+				<dt style="font-weight:normal">Sitio web</dt>
+				<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum natus eos maxime saepe eum necessitatibus fugiat, odit accusamus beatae, hic dolores libero dignissimos vitae vero Lorem ipsum dolor sit amet, consectetur adipisicing.
+				</dd>
+				<dt>Sistema web</dt>
+				<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis adipisci ex quam cumque unde culpa excepturi obcaecati assumenda sequi dolore.
+				</dd>
+				<dt>Lorem ipsum dolor.</dt>
+				<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, nulla!</dd>
+			</dl>
+		</section>
+		<section>
+			<h2>Lista con viñeta de imagen</h2>
+			<ul style="list-style-image: url('file:///C|/Users/HP PAVILION GAMING/Documents/7 SEMESTRE/img/girasol.png')">
+				<li>Maria Gomez</li>
+				<li>Juan Hernandez</li>
+				<li>Guadalupe Guerrero</li>
+				<li>Daniel Osorio</li>
+				<li>Monica Perez</li>
+			</ul>
+		</section>
+	</main>
+	<footer>
+		<h4>Elaborado por Ana Cecilia Ponce Bonilla</h4>
+	</footer>
+</body>
+</html>

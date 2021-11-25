@@ -1,0 +1,195 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Formularios</title>
+<link href="file:///C|/Users/HPPAVI~1/AppData/Local/Temp/Adobe/css/style.css" rel="stylesheet" type="text/css">
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
+<script>var __adobewebfontsappname__="dreamweaver"</script>
+<script src="http://use.edgefonts.net/satisfy:n4:default;nunito:n3:default.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+	<header>
+		<h1>Formularios en HTML</h1>
+	</header>
+	<nav>
+		<div class="contenedor-flexible-nav">
+			<div><a href="Mi primera pagina.html">Mi primera pagina</a></div>
+			<div><a href="tablas.html">Tablas</a></div>
+			<div><a href="listas.html">Listas</a></div>
+			<div><a href="Enlaces.html">Enlaces</a></div>
+			<div><a href="imagenes.html">Imagenes</a></div>
+			<div><a href="audio.html">Audio</a></div>
+			<div><a href="video.html">Video</a></div>
+			<div><a href="formularios.html">Formularios</a></div>
+			<div><a href="animate.html">Animacion</a></div>
+			<div><a href="animate.html">Medias queary</a></div>
+		</div>
+	</nav>
+	<main>
+<section>
+			<h2>Formulario simple</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit laboriosam animi quo maiores labore quod.</p>
+			<form action="file:///C|/Users/HPPAVI~1/AppData/Local/Temp/Adobe/Dreamweaver 2020/action_page.html" method="get">
+				<label>Nombre</label>
+				<input type="text" id="nombre" name="nombre"><br>
+				<label>Apellido</label>
+				<input type="text" id="apellidos" name="apellidos"><br>
+				<input type="submit" formaction="action_page.html" value="enviar">
+			</form>
+		</section>
+<section>
+	<h2>Formulario Radiobuton</h2>
+			<p class="parrafo_formulario">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, repellat. Itaque veniam blanditiis harum, alias.</p>
+			<form id="datos1" name="datos1" action="file:///C|/Users/HPPAVI~1/AppData/Local/Temp/Adobe/Dreamweaver 2020/action_page.html" method="post">
+		  </form>
+				<label for="textfield">Nombre:</label>
+				<input type="text" name="textfield" id="textfield"><br>
+				<label for="textfield2">Apellido:</label>
+				<input type="text" name="textfield2" id="textfield2"><br>
+			 <label>
+		    <input type="radio" name="RadioGroup1" value="Masculino" id="RadioGroup1_0">
+		    Masculino</label>
+		  <br>
+		  <label>
+		    <input type="radio" name="RadioGroup1" value="Femenino" id="RadioGroup1_1">
+		    Femenino</label><br>
+	<input type="submit" formaction="action_page.html" value="Enviar">
+</section>
+<section>
+<h2>Formulario dentro de una tabla</h2>
+<p class="parrafo_formulario">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, atque!</p>
+<form action="file:///C|/Users/HPPAVI~1/AppData/Local/Temp/Adobe/Dreamweaver 2020/action_page.html" method="get">
+	<table width="50%" border="0">
+  <tbody>
+    <tr>
+      <td><label for="nombre">Nombre</label></td>
+      <td><input type="text" id="nombre" name="nombre"></td>
+    </tr>
+    <tr>
+      <td><label for="apellidos">Apellidos</label></td>
+      <td><input type="text" id="apellidos" name="apellidos"></td>
+    </tr>
+    <tr>
+      <td><label for="edad">Edad</label></td>
+      <td><input type="number" id="edad" name="edad" min="1" max="99"></td>
+    </tr>
+    <tr>
+      <td><input type="submit" formaction="action_page.html" value="Enviar"></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+</form>
+</section>
+<section>
+    <h2>Formulario simple</h2>
+    <p class="parrafo_formulario">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit laboriosam animi quo maiores labore quod.</p>
+    <form action="file:///C|/Users/HPPAVI~1/AppData/Local/Temp/Adobe/Dreamweaver 2020/action_page.html" method="get">
+      <label>Nombre</label>
+      <input type="text" id="nombre2" name="nombre2"><br>
+      <label>Apellido</label>
+      <input type="text" id="apellidos2" name="apellidos2">
+			<br>
+    </form>
+	<p>	
+	<label>Elige tu  musical fav</label>
+  	<br>
+	<label>
+    <input type="checkbox" name="musicafavorita" value="pop" id="musicafavorita_0">
+    Pop</label>
+  	<br>
+  <label>
+    <input type="checkbox" name="musicafavorita" value="rock" id="musicafavorita_1">
+    Rock</label>
+		<br>
+  <label>
+    <input type="checkbox" name="musicafavorita" value="blues" id="musicafavorita_2">
+    Blues</label>
+		<br>
+  <label>
+    <input type="checkbox" name="musicafavorita_" value="jazz" id="musicafavorita_3">
+    Jazz</label>
+<br>
+	</p>
+	<label for="select">Nacionalidad</label>
+  <select name="pais" id="pais">
+  	<option value="ar">Argentina</option>
+		<option value="cl">Chile</option>
+		<option value="fr">Francia</option>
+		<option value="lt">Lituania</option>
+		<option value="mx">México</option>
+	</select>
+	<br>
+	<input type="enviar" value="Enviar">
+	</section>
+ <section>
+	<h2>Textarea</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, animi.</p>
+	 <br>
+ 	<form action="/action_page.php" >
+  <textarea name="message" rows="10" cols="30">The cat was playing in the garden.</textarea>
+  <br><br>
+  <input type="submit">
+</form>
+</section>
+<section>
+	<h2>Grouping Form Data with Fieldset</h2>
+
+<p>The fieldset element is used to group related data in a form, and the legend element defines a caption for the fieldset element.</p>
+
+<form action="/action_page.php">
+  <fieldset>
+    <legend>Personalia:</legend>
+    <label for="fname">Nombres:</label>
+    <br>
+    <input type="text" id="fname" name="fname" value="Ej. Laura"><br>
+    <label for="lname">Apellidos:</label>
+    <br>
+    <input type="text" id="lname" name="lname" value="Ej. Juarez"><br><br>
+    <input type="submit" value="Enviar">
+  </fieldset>
+</form>
+</section>
+<section>
+		<h2>The output Element</h2>
+		<p>The output element represents the result of a calculation.</p>
+
+<form action="/action_page.php"
+oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+  0
+  <input type="range" id="a" name="a" value="50">
+  10 +
+  <input type="number" id="b" name="b" value="50">
+  =
+  <output name="x" for="a b"></output>
+  <br><br>
+  <input type="submit">
+</form>
+</section>
+<section>
+<h2>Visible Option Values</h2>
+
+<p>Use the size attribute to specify the number of visible values.</p>
+
+<form action="/action_page.php">
+  <label for="cars">Elige un color:</label>
+  <select id="color" name="color" size="3">
+    <option value="rojo">Rojoo</option>
+    <option value="azul">Azul</option>
+    <option value="morado">Morado</option>
+    <option value="amarillo">Amarillo</option>
+  </select><br><br>
+  <input type="submit">
+</form>
+</section>
+		
+</main>
+<footer>
+	<h5>Elaborado por Ana Cecilia Ponce Bonilla</h5>
+</footer>
+</body>
+</html>
